@@ -1,0 +1,26 @@
+{
+  "name": "vulcom-ctf-sqli",
+  "version": "1.0.0",
+  "description": "Desafio CTF de SQL Injection para o projeto VULCOM",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "ejs": "latest",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "keywords": [
+    "ctf",
+    "security",
+    "sql injection",
+    "vulcom"
+  ],
+  "author": "",
+  "license": "MIT"
+}
